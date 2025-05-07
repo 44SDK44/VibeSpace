@@ -1,0 +1,71 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>vibeSpace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link href="assets/css/style.css" rel="stylesheet" />
+ </head>
+ <body class="bg-black text-white font-[Roboto Mono] min-h-screen flex">
+  <!-- Left Sidebar - fixed to left -->
+  <aside class="sidebar">
+    <div>
+      <div class="logo">LOGO HERE</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Maps</a>
+        <a href="#">Create</a>
+      </nav>
+    </div>
+    <div class="more-options">
+      <a href="#">Profile</a>
+      <a href="#">More</a>
+    </div>
+  </aside>
+
+  <!-- Main Content - centered with margin left for fixed sidebar -->
+  <main class="main-content">
+    <h2 class="title">suggested posts</h2>
+
+    <!-- Post container -->
+    <div class="username">anonymous user 007
+      <button class="more-options-btn"><i class="fas fa-ellipsis-h"></i></button>
+      </div>
+    <div class="post-container">
+      <img class="post-image" alt="Garbage bin with goats" src="https://storage.googleapis.com/a1aa/image/bdced8f3-2585-4121-f39b-aadf47e40d70.jpg"/>
+      <div class="post-actions">
+        <div class="action-icons">
+          <i class="far fa-heart"></i>
+          <i class="far fa-comment"></i>
+        </div>
+      </div>
+      <div class="post-details">
+        <span class="upvotes">1,069 upvotes</span>
+        <span class="comment-text">There has been more drainage problems around this area...</span>
+      </div>
+      <div class="comment-section">
+        <i class="far fa-smile"></i>
+        <input class="comment-input" placeholder="Add a comment..." />
+        <button class="post-btn">Post</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Right Sidebar - location buttons fixed right -->
+  <aside class="right-sidebar">
+    <h3>Districts</h3>
+    <button>Chennai</button>
+    <button>Chengalpattu</button>
+    <button>Thiruvallur</button>
+    <button>Theni</button>
+    <button>Thanjavur</button>
+    <button>Namakkal</button>
+    <button>Puducherry</button>
+  </aside>
+ </body>
+</html>
